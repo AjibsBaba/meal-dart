@@ -1,16 +1,10 @@
 # meal_app
 
-A new Flutter project.
+This is just another flutter project. I am currently experimenting with Data Models and Navigation in Flutter
 
-## Getting Started
+## Modules Used
 
-This project is a starting point for a Flutter application.
+- Navigation
+- Creating Data Models in Dart
+- Passing Data Between Screens
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
