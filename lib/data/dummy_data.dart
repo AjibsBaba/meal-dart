@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './models/category.dart';
-import './models/meal.dart';
+import '../models/category.dart';
+import '../models/meal.dart';
 
 const DUMMY_CATEGORIES = [
   Category(
@@ -63,7 +63,9 @@ const DUMMY_MEALS = [
       'c1',
       'c2',
     ],
-    title: 'Spaghetti with Tomato Sauce',
+    title: 'Spaghetti and Tomato Sauce',
+    description:
+        'Spaghetti with tomato sauce is a pasta dish made by tossing cooked spaghetti noodles with a sauce made from tomatoes. The sauce is typically made by simmering diced or crushed tomatoes with garlic, onions, and herbs, such as basil and oregano.',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
@@ -97,6 +99,8 @@ const DUMMY_MEALS = [
       'c2',
     ],
     title: 'Toast Hawaii',
+    description:
+        'Toast Hawaii is a type of open-faced sandwich that originated in Germany. It is made by topping a slice of toasted bread with ham, pineapple, and cheese, and then broiling the sandwich until the cheese is melted and bubbly. ',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
@@ -126,6 +130,8 @@ const DUMMY_MEALS = [
       'c3',
     ],
     title: 'Classic Hamburger',
+    description:
+        'A classic hamburger is a sandwich consisting of a cooked patty of ground meat, typically beef, placed inside a sliced bun. The patty is usually grilled, but it can also be pan-fried or flame-broiled.',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
@@ -157,6 +163,8 @@ const DUMMY_MEALS = [
       'c4',
     ],
     title: 'Wiener Schnitzel',
+    description:
+        'Wiener Schnitzel is a traditional Austrian dish made with thin, breaded and fried cutlets of veal. The cutlets are usually pounded thin and then coated in a mixture of flour, egg, and bread crumbs before being fried in a pan with oil or butter. ',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
@@ -194,6 +202,8 @@ const DUMMY_MEALS = [
       'c10',
     ],
     title: 'Salad with Smoked Salmon',
+    description:
+        'The smoked salmon is typically cut into thin slices or small pieces and arranged over the top of the salad. The salad may also be dressed with a vinaigrette or other type of dressing.',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
@@ -229,6 +239,8 @@ const DUMMY_MEALS = [
       'c10',
     ],
     title: 'Delicious Orange Mousse',
+    description:
+        'It is typically made by whipping cream until it forms stiff peaks, then folding in a mixture of sugar, orange zest, and orange juice. The mousse can be served in individual glasses or bowls, or it can be used as a filling for a pie or other baked goods.',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
@@ -264,6 +276,8 @@ const DUMMY_MEALS = [
       'c7',
     ],
     title: 'Pancakes',
+    description:
+        'Pancakes are a type of breakfast food made from a batter of flour, milk, and eggs, which is cooked on a griddle or in a pan. The batter is poured or spooned onto the hot surface in small rounds, and then cooked until bubbles form on the surface and the edges start to dry.',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
@@ -295,6 +309,7 @@ const DUMMY_MEALS = [
       'c8',
     ],
     title: 'Creamy Indian Chicken Curry',
+    description: '',
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
@@ -328,6 +343,7 @@ const DUMMY_MEALS = [
       'c9',
     ],
     title: 'Chocolate Souffle',
+    description: '',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
@@ -379,6 +395,7 @@ const DUMMY_MEALS = [
       'c10',
     ],
     title: 'Asparagus Salad with Cherry Tomatoes',
+    description: '',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
